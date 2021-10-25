@@ -1,0 +1,39 @@
+html, body {
+    background-color: #22252B;
+}
+
+.navbar .home_button {
+    background-color: #303030;
+    color: white;
+}
+
+.navbar .about_us {
+    background-color: #87F3FF;
+    color: black;
+}
+
+.about_us_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    background-color: #3E3C3C;
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.about_us_title {
+    height: 10vh;
+    font-size: 3vw;
+    align-self: center;
+}
+
+.about_us_content {
+    height: 100%;
+    background-color: #22252B;
+    justify-self: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 15vh;
+}

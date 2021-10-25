@@ -1,0 +1,35 @@
+html, body {
+    background-color: white;
+}
+
+.navbar .home_button {
+    background-color: #303030;
+    color: white;
+}
+
+.login-main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-main input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.login-main button {
+    margin-top: 2vh;
+    width: 100%;
+    background-color: #303030;
+    border-color: #303030;
+    border-radius: 18px;
+    color: white;
+}

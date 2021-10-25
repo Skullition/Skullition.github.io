@@ -1,0 +1,94 @@
+.burger_main {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.navbar .home_button {
+    background-color: #303030;
+    color: white;
+}
+
+.navbar .menu, .navbar .burger_food_selectable {
+    background-color: #87F3FF;
+    color: black;
+}
+
+.burger_main p {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5vw;
+}
+
+.burger_main .burger_title {
+    top: 21%;
+}
+
+.burger_foods {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 15vh;
+    width: 100%;
+    column-gap: 2vw;
+}
+
+.burger_foods img {
+    max-height: 18vh;
+}
+
+.burger_foods .kromer_burger {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kromer_burger img {
+}
+
+.burger_foods p {
+    color: black;
+    align-self: center;
+}
+
+/* Cheeseburger */
+.burger_foods .cheese_burger {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cheese_burger img {
+}
+
+/* Chicken Burger */
+.burger_foods .chicken_burger {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chicken_burger img {
+}
+/* Hopper Burger */
+.burger_foods .hopper_burger {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hopper_burger img {
+}

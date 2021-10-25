@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FamDiner - Login</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="formValidation.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <img alt="Logo" class="logo" src="images/logo.svg">
+    <div class="header-right">
+        <a class="register_button" href="register.html">REGISTER</a>
+        <a href="login.html">LOGIN</a>
+    </div>
+</div>
+<div class="navbar">
+    <a class="home_button" href="famdiner_home.html">HOME</a>
+    <div class="dropdown">
+        <button class="menu">MENU
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="burger.html">BURGER</a>
+            <a href="#">RICE & PASTA</a>
+            <a href="#">SEAFOOD</a>
+        </div>
+    </div>
+    <a href="about_us.html">ABOUT US</a>
+</div>
+
+<div class="login-main">
+    <p>Login</p>
+    <form action="#" method="post" onsubmit="return validateLoginForm()">
+        <label for="emailField">Email:</label><br>
+        <input id="emailField" name="emailField" required type="text"><br>
+        <label for="passwordField">Password:</label><br>
+        <input id="passwordField" name="passwordField" required type="password"><br>
+        <button class="submitLoginForm" type="submit">Login</button>
+        <p>Want to join us? Register <a href="register.html">here!</a></p>
+    </form>
+</div>
+</body>
+</html>

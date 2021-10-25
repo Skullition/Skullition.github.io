@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Famdiner - Register</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="register.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="formValidation.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <img alt="Logo" class="logo" src="images/logo.svg">
+    <div class="header-right">
+        <a class="register_button" href="register.html">REGISTER</a>
+        <a href="login.html">LOGIN</a>
+    </div>
+</div>
+<div class="navbar">
+    <a class="home_button" href="famdiner_home.html">HOME</a>
+    <div class="dropdown">
+        <button class="menu">MENU
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="burger.html">BURGER</a>
+            <a href="#">RICE & PASTA</a>
+            <a href="#">SEAFOOD</a>
+        </div>
+    </div>
+    <a href="about_us.html">ABOUT US</a>
+</div>
+<div class="register_form">
+    <p>Register</p>
+    <form action="#" method="post" onsubmit="return validateRegisterForm()">
+        <label for="nameField">Name:</label><br>
+        <input id="nameField" name="nameField" required type="text"><br>
+        <label for="emailField">Email:</label><br>
+        <input id="emailField" name="emailField" required type="text"><br>
+        <label for="male">Gender:</label><br>
+        <input id="male" name="genderField" required type="radio">Male
+        <label for="female"></label><input id="female" name="genderField" type="radio">Female<br>
+        <label for="cities">Cities:</label><select id="cities" name="cities">
+        <option value="Denpasar">Denpasar</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Jawa Barat">Jawa Barat</option>
+        <option value="Jawa Tengah">Jawa Tengah</option>
+        <option value="Jawa Timur">Jawa Timur</option>
+    </select>
+        <label for="passwordField">Password:</label><br>
+        <input id="passwordField" name="passwordField" required type="password"><br>
+        <label for="confirmPasswordField">Confirm Password:</label><br>
+        <input id="confirmPasswordField" name="confirmPasswordField" required type="password"><br>
+        <button class="submitRegisterForm" type="submit">Register</button>
+    </form>
+</div>
+</body>
+</html>
