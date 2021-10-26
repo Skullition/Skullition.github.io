@@ -36,6 +36,12 @@ html, body {
 }
 
 @media only screen and (max-width: 600px) {
+    .header {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-flow: column wrap;
+    }
     .header a {
         float: none;
         display: inline-block;
