@@ -28,6 +28,7 @@ body {
 
 .header-bottom {
     display: flex;
+    padding-top: 15vh;
 }
 
 .header__top-right {
