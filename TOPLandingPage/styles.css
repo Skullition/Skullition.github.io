@@ -29,6 +29,9 @@ body {
 .header-bottom {
     display: flex;
     padding-top: 15vh;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .header__top-right {
