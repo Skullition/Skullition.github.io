@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    max-height: 5vh;
+}
+
+.header__top-left {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header__top-right {
+    display: flex;
+}
+
+.header__top-right a {
+    text-decoration: none;
+    color: #E5E7EB;
+    margin-left: 1vw;
+}
+
+.header__left {
+    background: red;
+}
+
+.header__left-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
