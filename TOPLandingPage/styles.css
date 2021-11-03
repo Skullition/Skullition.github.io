@@ -57,6 +57,17 @@ body {
     color: #F9FAF8;
 }
 
+.header__left button {
+    background-color:#3882F6;
+    border-color: #3882F6;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    padding: 1px 1.5vw;
+    margin-top: 1.5vh;
+    border-style: solid;
+}
+
 .header__right {
     display: flex;
     max-width: 100%;
