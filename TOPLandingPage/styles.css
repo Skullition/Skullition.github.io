@@ -79,7 +79,7 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    min-height: 10vw;
+    min-height: 25vw;
 }
 
 .body-information__header {
@@ -115,5 +115,6 @@ body {
 }
 
 .body-information__subtext {
-
+    margin-top: 1vh;
+    color: dimgray;
 }
