@@ -28,10 +28,8 @@ body {
 
 .header-bottom {
     display: flex;
-    padding-top: 15vh;
     justify-content: space-between;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding: 15vh 10vw 15vh;
 }
 
 .header__left-subtext {
@@ -57,4 +55,13 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+
+.header__right {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+.header__right-img {
 }
