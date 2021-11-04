@@ -80,6 +80,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 25vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .body-information__header {
@@ -117,4 +119,28 @@ body {
 .body-information__subtext {
     margin-top: 1vh;
     color: dimgray;
+}
+
+.body-quote {
+    background-color: #E5E7EB;
+    min-height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.body-quote__main {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.body-quote__subtext {
+    margin-top: 4vh;
+    align-self: flex-end;
+    font-weight: bold;
 }
