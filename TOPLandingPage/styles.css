@@ -144,3 +144,16 @@ body {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.footer {
+    background-color: #1F2937;
+    min-height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+}
